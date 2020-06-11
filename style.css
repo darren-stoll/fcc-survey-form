@@ -1,0 +1,41 @@
+#main {
+  margin: auto;
+  font-family: Arial;
+}
+
+#header-text {
+  text-align: center;
+  background-color: #333333;
+  color: #EEEEEE;
+  padding: 10px 0px 10px 0px;
+}
+
+#img-div {
+  background-color: #CCCCCC;
+  padding: 1px 0px 0px 0px;
+}
+
+#image {
+  /* User Story #8: The img element should responsively resize, relative to the width of its parent element, without exceeding its original size. */
+  max-width: 100%;
+  display: block;
+  height: auto;
+  /* User Story #9: The img element should be centered within its parent element. */
+  margin: auto;
+}
+
+#img-caption {
+  text-align: center;
+  padding: 10px 0px 10px 0px;
+  font-weight: bold;
+}
+
+#tribute-info {
+  max-width: 1080px;
+  text-align: justify;
+  margin: auto;
+}
+
+#tribute-link {
+  padding: 20px 0px 20px 0px;
+}
